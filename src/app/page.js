@@ -33,10 +33,10 @@ export default function Home() {
 
               <div className="flex gap-2 md:gap-6 ">
                 <Link href="/menu">
-                  <Button variant="outline" className="px-14 md:px-16 py-5 bg-[#2B1D0E]/50  text-[#FFF7ED] text-base border-[2px] border-[#FFEFD5]/80   transition-all duration-300 ease-out hover:-translate-y-1 hover:bg-[#2B1D0E]/60  hover:text-[FFEFD5]/90">مشاهده منو</Button>
+                  <Button variant="outline" className="px-12 md:px-16 py-5 bg-[#2B1D0E]/50  text-[#FFF7ED] text-base border-[2px] border-[#FFEFD5]/80   transition-all duration-300 ease-out hover:-translate-y-1 hover:bg-[#2B1D0E]/60  hover:text-[FFEFD5]/90">مشاهده منو</Button>
                 </Link>
                 <Link href="#about">
-                  <Button variant="outline" className="px-14 md:px-16 py-5 bg-[#FFEFD5]/80 font-bold  text-[#2B1D0E]/50 text-base border-[2px] border-[#2B1D0E]/50  transition-all duration-300 ease-out hover:-translate-y-1 hover:border-border-[#2B1D0E] hover:bg-[#FFEFD5]  hover:text-[#2B1D0E]/60">دربـــاره ما</Button>
+                  <Button variant="outline" className="px-12 md:px-16 py-5 bg-[#FFEFD5]/80 font-bold  text-[#2B1D0E]/50 text-base border-[2px] border-[#2B1D0E]/50  transition-all duration-300 ease-out hover:-translate-y-1 hover:border-border-[#2B1D0E] hover:bg-[#FFEFD5]  hover:text-[#2B1D0E]/60">دربـــاره ما</Button>
                 </Link>
 
 
