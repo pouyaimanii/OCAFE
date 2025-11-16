@@ -22,7 +22,7 @@ export default function Menu() {
 
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
                     </div>
-                    <div className='grid grid-cols-5 gap-10 my-10 justify-center items-center justify-items-center text-center'>
+                    <div className='grid mx-4 grid-cols-2 md:grid-cols-5 gap-10 my-10 justify-center items-center justify-items-center text-center'>
 
                         <Link href="#hotdrinks" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/h2.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
@@ -70,7 +70,7 @@ export default function Menu() {
 
 
 
-                    <div className="grid grid-cols-2 gap-6 my-8">
+                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
                         <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
                             <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
@@ -167,7 +167,7 @@ export default function Menu() {
 
 
 
-                    <div className="grid grid-cols-2 gap-6 my-8">
+                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
                         <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
                             <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
@@ -235,7 +235,7 @@ export default function Menu() {
 
 
 
-                    <div className="grid grid-cols-2 gap-6 my-8">
+                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
                         <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
                             <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
@@ -315,7 +315,7 @@ export default function Menu() {
 
 
 
-                    <div className="grid grid-cols-2 gap-6 my-8">
+                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
                         <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
                             <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
@@ -442,7 +442,7 @@ export default function Menu() {
 
 
 
-                    <div className="grid grid-cols-2 gap-6 my-8">
+                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
                         <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
                             <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">

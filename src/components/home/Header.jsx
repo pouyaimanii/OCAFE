@@ -8,26 +8,33 @@ import Link from 'next/link';
 
 
 export default function Header() {
-    return(
-        <>
-        
-        <div className="max-w-[1280px] mx-auto">
+  return (
+    <>
 
-             <div className="flex justify-between items-center">
-          <div className="flex items-center gap-12 text-[#FFF7ED] text-2xl">
-          <Image src="/images/logo.jpg" className="rounded-full my-4" width="70" height="70" alt="logo" />
+      <div className="max-w-[1280px] mx-auto">
+
+        <div className="flex justify-between items-center md:mx-0 mx-4">
+          <div className="flex items-center gap-4 text-xl font-bold md:font-medium md:gap-12 text-[#FFF7ED] md:text-2xl">
+            <Image
+  src="/images/logo.jpg"
+  className="rounded-full my-4 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20"
+  width={80}
+  height={80}
+  alt="logo"
+/>
+<div className='grid gap-1 md:flex md:gap-8'>
             <Link href="/">خــــانــه</Link>
-           
+
             <Link href="/menu">منـــوی کــافه</Link>
-           
+</div>
 
           </div>
-          <h2 className="font-bold text-5xl text-[#FFF7ED]/80">O CAFE</h2>
+          <h2 className="font-bold text-2xl md:text-5xl text-[#FFF7ED]/80">O CAFE</h2>
         </div>
-         <div className="h-0 border-[0.1px] border-[#FFF7ED]/40"></div>
+        <div className="h-0 border-[0.1px] border-[#FFF7ED]/40"></div>
 
 
-        </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }

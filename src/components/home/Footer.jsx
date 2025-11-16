@@ -9,10 +9,10 @@ import Link from 'next/link';
 
 
 export default function Footer() {
-    return (
-        <>
-        <div className=' mt-24 py-14 bg-[#2B1D0E]/70 '>
-        <div className='max-w-[1280px] mx-auto grid grid-cols-3 justify-items-center '>
+  return (
+    <>
+      <div className=' mt-24 py-14 bg-[#2B1D0E]/70 '>
+        <div className='max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 justify-items-start px-5 md:px-0  md:justify-items-center '>
 
           <div className='grid grid-cols-1 gap-6'>
             <Image src="/images/logo.jpg" className='rounded-full' alt='logo' width={85} height={85} />
@@ -22,28 +22,30 @@ export default function Footer() {
             <div className="h-0 border-[0.1px] border-[#FFF7ED]/40"></div>
             <h3 className='text-[#FFEFD5]'>آدرس : اردبیل، میدان شریعتی </h3>
           </div>
-          <div className='grid grid-cols-1 gap-1'>
+          
+          <div className='grid grid-cols-1 gap-1 mt-5 md:mt-0'>
             <h3 className='text-[#FFEFD5]  text-2xl font-bold'>لینک های سریع</h3>
-            
+
             <Link href="/menu" className='text-[#FFEFD5]  text-xl'>منوی کافه</Link>
             <Link href="/" className='text-[#FFEFD5] mb-4  text-xl '>خانه</Link>
-            
+
 
           </div>
+          
 
 
           <div className='grid grid-cols-1 gap-3'>
             <h3 className='text-[#FFEFD5]  text-2xl font-bold'>تمـــاس باما</h3>
-           <a
-  href="https://www.instagram.com/ocafe_ir"
-  target="_blank"
-  rel="noopener noreferrer"
->
-            <h3 className='text-[#FFEFD5]  text-xl'>اینستاگرام</h3>
- </a>
+            <a
+              href="https://www.instagram.com/ocafe_ir"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className='text-[#FFEFD5]  text-xl'>اینستاگرام</h3>
+            </a>
             <h3 className='text-[#FFEFD5]  text-xl'>تلگرام</h3>
             <h3 className='text-[#FFEFD5]  text-xl'>واتساپ</h3>
-            
+
 
           </div>
         </div>
@@ -52,6 +54,6 @@ export default function Footer() {
         </div>
 
       </div>
-        </>
-    )
+    </>
+  )
 }
